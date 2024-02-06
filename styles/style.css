@@ -1,1 +1,28 @@
+<<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */
+=======
+.footer-event-box, .footer-nav, .footer-contact, .footer-social {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-logo img {
+  width: 150px;
+}
+
+.footer-contact, .footer-social {
+  text-align: center;
+}
+.footer-contact img, .footer-social img {
+  width: 30px;
+}
+
+.footer-event-box img {
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> alexis
