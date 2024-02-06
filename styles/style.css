@@ -1,0 +1,13 @@
+.btn {
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  transition: 500ms;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  transition: 500ms;
+}/*# sourceMappingURL=style.css.map */
