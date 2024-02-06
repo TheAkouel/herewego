@@ -1,0 +1,38 @@
+%footer-list {
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+footer h1 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & img {
+        width: 150px;
+    }
+}
+.footer-contact, .footer-social {
+    @extend %footer-list;
+    text-align: center;
+    & img {
+        width: 30px;
+        margin: 5px;
+    }
+}
+
+.footer-nav {
+    @extend %footer-list;
+
+}
+
+.footer-event-box {
+    @extend %footer-list;
+    & img {
+        margin: 10px;
+    }
+}

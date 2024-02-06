@@ -1,0 +1,30 @@
+.footer-event-box, .footer-nav, .footer-contact, .footer-social {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+footer h1 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-logo img {
+  width: 150px;
+}
+
+.footer-contact, .footer-social {
+  text-align: center;
+}
+.footer-contact img, .footer-social img {
+  width: 30px;
+  margin: 5px;
+}
+
+.footer-event-box img {
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */
