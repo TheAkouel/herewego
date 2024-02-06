@@ -3,6 +3,11 @@
     list-style: none;
 }
 
+footer h1 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
 .footer-logo {
     display: flex;
     flex-direction: column;
@@ -16,6 +21,7 @@
     text-align: center;
     & img {
         width: 30px;
+        margin: 5px;
     }
 }
 
