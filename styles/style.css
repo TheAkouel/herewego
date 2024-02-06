@@ -1,13 +1,24 @@
-.btn {
-  width: 150px;
-  height: 50px;
-  border: 1px solid black;
-  background-color: black;
-  color: white;
-  transition: 500ms;
+.footer-event-box, .footer-nav, .footer-contact, .footer-social {
+  padding-inline-start: 0;
+  list-style: none;
 }
-.btn:hover {
-  background-color: white;
-  color: black;
-  transition: 500ms;
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-logo img {
+  width: 150px;
+}
+
+.footer-contact, .footer-social {
+  text-align: center;
+}
+.footer-contact img, .footer-social img {
+  width: 30px;
+}
+
+.footer-event-box img {
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */
