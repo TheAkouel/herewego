@@ -1,0 +1,32 @@
+%footer-list {
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & img {
+        width: 150px;
+    }
+}
+.footer-contact, .footer-social {
+    @extend %footer-list;
+    text-align: center;
+    & img {
+        width: 30px;
+    }
+}
+
+.footer-nav {
+    @extend %footer-list;
+
+}
+
+.footer-event-box {
+    @extend %footer-list;
+    & img {
+        margin: 10px;
+    }
+}
